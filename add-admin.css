@@ -1,0 +1,179 @@
+.admin-dashboard {
+  justify-content: center;
+}
+.dashboard-right {
+  max-width: 920px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  margin: 75px 0px;
+  padding: 30px 30px !important;
+}
+.admin-dashboard__back {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+  text-decoration-line: underline;
+  margin: 30px 40px !important;
+  display: inline-block;
+  color: #827c7c;
+}
+.dashboard-right p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 27px;
+  color: #e07106;
+  margin: 0;
+}
+.dashboard-right input {
+  margin-left: 25px;
+  padding: 17px 40px;
+  width: 410px;
+  background: #ffffff;
+  border: 1px solid #dedede;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+.dashboard-right__input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.dashboard-right__input button {
+  background: #2567d9;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border: none;
+  border-radius: 10px;
+  padding: 9px 53px;
+  color: white;
+  margin: 10px 15px;
+}
+
+/* tabs */
+.tab {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  background: #ffffff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  max-width: 250px;
+  margin: 12px 20px 15px 40px;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+  color: #000000;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  /* background: #FFFFFF; */
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  border: 2px solid #2567d9;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  /* padding: 6px 12px; */
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+/* ---------------List of admin----------------- */
+td,
+th {
+  height: 60px;
+  border: 0px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+tr {
+  border-bottom: 1px solid #efefef;
+}
+table {
+  width: -webkit-fill-available;
+}
+.dashboard-header {
+  background: rgba(37, 103, 217, 0.92);
+  border-radius: 10px 10px 0px 0px;
+}
+.dashboard-right__text {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #716d6d;
+}
+.dashboard-right2 {
+  max-width: 920px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px 10px 0px 0px;
+  margin: 75px 0px;
+  padding: 0 !important;
+  overflow: hidden;
+}
+.dashboard-right__header {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 27px;
+  color: #f4f4f4;
+}
+.dashboard-right__active {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #25d94d;
+}
+.dashboard-right__inactive {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffc233;
+}
+.admin-img {
+  position: relative;
+}
+.admin-img span {
+  top: 16px;
+  position: absolute;
+  right: 20px;
+}
+.icon.active label {
+  display: none !important;
+}

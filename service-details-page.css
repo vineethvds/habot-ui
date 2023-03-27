@@ -1,0 +1,72 @@
+main {
+    font-family: 'Noto Sans';
+    font-style: normal;
+}
+.navbar{
+    height: auto;
+}
+.logo{
+    width: 50%;
+}
+.icon1{
+    border-left: 4px solid white;
+}
+.back-btn {
+    margin-left: 35px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #827C7C;
+    text-decoration: underline;
+
+}
+
+.service-btn {
+    line-height: 23px;
+    border: 2px solid #2567D9;
+    width: 230px;
+    height: 60px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px 10px rgba(111, 111, 111, 0.25);
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+}
+
+.other-service__btn {
+    line-height: 23px;
+    border: none;
+    width: 230px;
+    height: 56px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px 10px rgba(111, 111, 111, 0.25);
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+}
+
+.other-service__btn:focus {
+    border: 2px solid #2567D9;
+}
+
+.service-btn:focus {
+    border: 2px solid #2567D9;
+}
+
+.service-details__container {
+    width: 800px;
+    height: 500px;
+    border: 1px solid #FFC233;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 10px;
+}
+
+.details-container__text {
+    font-weight: 500;
+    font-size: 15px;
+    color: #E07106;
+}
+
+.details-container__text2 {
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+    opacity: 0.5;
+}

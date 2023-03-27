@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./orderDetails.css" />
+    <link rel="stylesheet" href="./navbar.css" />
+    <link rel="stylesheet" href="./header.css" />
+    <link rel="stylesheet" href="./footer.css" />
+    <title>test</title>
+  </head>
+
+  <body>
+    <div class="navbar">
+      <div class="icon">
+        <img src="./images/admin.png" alt="admin" />
+        <label>Admin</label>
+      </div>
+      <div class="icon">
+        <img class="services" src="./images/services.png" alt="services" />
+        <label>Services</label>
+      </div>
+      <div class="icon">
+        <img src="./images/clients.png" alt="clients" />
+        <label>Clients</label>
+      </div>
+      <div class="icon">
+        <img src="./images/orders.png" alt="orders" />
+        <label>Orders</label>
+      </div>
+      <div class="icon">
+        <img src="./images/subscriptions.png" alt="subscriptions" />
+        <label class="subs">Subs</label>
+      </div>
+      <img src="./images/white_line.png" alt="white_line" class="white_line" />
+      <a href="">
+        <img src="./images/settings.png" alt="settings" />
+      </a>
+      <a href="">
+        <img src="./images/logout.png" alt="logout" />
+      </a>
+    </div>
+
+    <main>
+      <div class="container header">
+        <div class="row m20-0">
+          <div class="col d-flex align-items-center">
+            <h4 class="primaryText placeholderText">Order Details</h4>
+          </div>
+          <div class="col d-flex align-items-center justify-content-end">
+            <img src="./images/bell.png" class="m0-30" alt="" />
+            <img src="./images/line.png" alt="" />
+            <h5 class="m0-30 text-muted username">User name</h5>
+            <img src="./images/user.png" alt="" />
+          </div>
+        </div>
+        <br />
+      </div>
+
+      <div class="container middle">
+        <div class="container">
+          <div class="row">
+            <div class="col-auto">
+              <a href="#" class="text-muted">Back</a>
+              <br />
+              <br />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-3 btns">
+              <a href="./orderList.html">
+                <button>Order List</button>
+              </a>
+              <br />
+              <br />
+              <a href="./orderDetails.html">
+                <button class="active">Order Details</button>
+              </a>
+            </div>
+            <div class="col-9">
+              <table class="table table-borderless">
+                <caption>
+                  Order Details
+                </caption>
+                <tbody>
+                  <tr>
+                    <th scope="row">Order Id</th>
+                    <td colspan="2"><a href="#" class="tdn">12345678</a></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Client Name</th>
+                    <td>David Browny</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Total</th>
+                    <td>$123</td>
+                  </tr>
+                </tbody>
+              </table>
+              <table class="table table-bordered">
+                <caption>
+                  Products
+                </caption>
+                <thead>
+                  <tr>
+                    <th>#</th>
+                    <th>Products Name</th>
+                    <th>Time</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>Visa Renewal</td>
+                    <td>5.00 PM</td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>Visa Renewal</td>
+                    <td>5.00 PM</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container footer">
+        <br />
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <img src="./images/logo.png" class="logo" alt="logo" />
+            </div>
+            <div class="col text-center jcc_fxdc">
+              <h6>
+								<a href="#">Refund Policy</a>
+							</h6>
+              <h6>
+								<a href="#">Terms & condition</a>
+							</h6>
+            </div>
+            <div class="col text-center text-muted jcc_fxdc">
+							<h6>
+								<a href="#">About Us</a>
+							</h6>
+              <h6>
+								<a href="#">Contact Us</a>
+							</h6>
+            </div>
+            <div class="col-4 text-muted address_col">
+              <h6>One Lake Plaza - 608 - Cluster T</h6>
+              <h6>- Dubai - United Arab Emirates</h6>
+            </div>
+          </div>
+          <div class="text-center mt-2">
+            <img src="./images/instagram.png" alt="instagram" />
+            <img src="./images/twitter.png" alt="twitter" />
+            <img src="./images/facebook.png" alt="facebook.png" />
+          </div>
+        </div>
+        <br />
+      </div>
+    </main>
+
+    <script src="./navbar.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

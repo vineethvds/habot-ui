@@ -1,0 +1,96 @@
+:root {
+    --primary: #2567D9;
+}
+
+body {
+    display: flex;
+}
+
+main {
+    display: grid;
+    width: calc(100% - 108px);
+    margin-left: 108px;
+}
+
+.btns button {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px 10px rgba(111, 111, 111, 0.25);
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+    padding: 20px;
+}
+
+.btns button.active {
+    border: 2px solid #2567D9;
+}
+
+.striped {
+    background: #F1EFEF;
+}
+
+.tdn {
+    text-decoration: none;
+}
+
+.middle table caption {
+    padding: .5rem .5rem;
+    background: #F1EFEF;
+    caption-side: top;
+    color: black;
+    font-weight: bold;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #212529BF;
+}
+
+.middle thead {
+    background: var(--primary);
+    color: white;
+}
+
+.datatable {
+    border: 1px solid #DEDEDE;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 10px;
+}
+
+.datatable select {
+    width: 90px;
+    border: 2px solid #2567D9;
+    margin: 0 5px;
+}
+
+.datatable td{
+    color: #818181;
+}
+
+.entries {
+    display: flex;
+    align-items: baseline;
+    justify-content: end;
+}
+
+.datatable .pagination .page-link {
+    border: none;
+    border-radius: 50%;
+}
+
+.pagination img{
+    width: 14px;
+}
+
+.datatable thead th:first-child {
+    border-top-left-radius: 10px;
+}
+
+.datatable thead th:last-child {
+    border-top-right-radius: 10px;
+}
+
+.datatable tbody td{
+    padding: 15px;
+}

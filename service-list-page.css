@@ -1,0 +1,116 @@
+main {
+    font-family: 'Noto Sans';
+    font-style: normal;
+}
+.navbar{
+    height: auto;
+}
+.logo{
+    width: 50%;
+}
+.icon1{
+    border-left: 4px solid white;
+}
+.back-btn {
+    margin-left: 35px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #827C7C;
+    text-decoration: underline;
+
+}
+
+.service-btn {
+    line-height: 23px;
+    border: 2px solid #2567D9;
+    width: 230px;
+    height: 60px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px 10px rgba(111, 111, 111, 0.25);
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+}
+.other-service__btn{
+    line-height: 23px;
+    border: none;
+    width: 230px;
+    height: 56px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px 10px rgba(111, 111, 111, 0.25);
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+}
+.other-service__btn:focus{
+    border: 2px solid #2567D9;
+}
+.service-btn:focus {
+    border: 2px solid #2567D9;
+}
+
+table {
+    width: auto;
+    height: 500px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px 10px 0px 0px;
+    overflow-y: scroll;
+}
+.th-radious{
+    border-top-left-radius: 10px;
+}
+.th-radious__right{
+    border-top-right-radius: 10px;
+}
+tr th {
+    height: 50px;
+    padding: 0px 55px 0px 15px;
+    background: #2567D9;
+    color: #FFFFFF;
+    font-size: 17px;
+    font-weight: 400;
+}
+tr{
+    border-bottom: 1px solid #DCDBDB;;
+}
+.td-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.details-btn {
+    font-weight: 300;
+    background-color: #FFC233;
+    border: none;
+    width: 100px;
+    height: 40.14px;
+    color: white;
+    border-radius: 8px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.col-9__container{
+    height: 450px;
+    overflow-y: scroll;
+}
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #2567D9; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #2567d993; 
+  }
+   
+
